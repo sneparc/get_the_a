@@ -1,0 +1,184 @@
+@import 'colors';
+
+		body{
+			background-color: $default-white;
+		}
+		#banner{
+			margin: 10px 0px;
+			font-family:serif;
+		}
+
+		h1{
+			color: red;
+		}
+		.container{
+			margin: 0px;
+			padding: 0;
+		}
+		.row{
+			margin:0px;
+			width: 250px;
+		}
+		nav{
+			margin: 10px 0px;
+		}
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		}
+		a {
+		    display: block;
+		    width: 250px;
+		    font-size: 20px;
+		    border: solid 1pt #000;
+		    background-color: grey;
+		    color: white;
+		    text-transform: uppercase;
+		    text-decoration: none;
+		}
+		img{
+			display:none;
+		}
+
+		.jumbotron{
+			display: none;
+		}
+
+
+
+		@media all and (min-width: 992px) {
+			ul{
+				margin: 0 auto;
+			}
+			li{
+				margin: 0 auto;
+				display:inline;
+			}
+			a {
+				margin: 30px;
+			    display: inline;
+			    width:20%;
+			    padding: 2px;
+			}
+
+			.row{
+				margin: 0 100px;
+				float: left; 
+			}
+
+			.container{
+				margin: 10px 30px
+				
+			}
+
+			#banner{
+				margin:0px 30px;
+				text-align: center;
+				color: red;
+			}
+
+			nav{
+				border: solid 1px #000;
+				margin: 0px 30px;
+				width: 95%;
+				background-color: black;
+				margin-right: 0px;
+			
+			}
+			img{
+				display: block;
+				width: 50%;
+				position: relative;
+				right:auto;
+				left: 250px;
+			}
+			.jumbotron{
+				margin: 0 30px;
+				display:block;
+				width: auto;
+				text-align: center;
+				
+			}
+
+			h1{
+				font-size: 80pt;
+				width: 100%;
+			}
+
+			p{
+				margin: 0 auto;
+			}
+
+
+			body{
+
+				background-color:$default-white;
+
+		}
+		#sectionWrap{
+			min-width: 961px;
+			margin:0 30px;
+		}
+
+		.section{
+			float: left;
+			height: 600px;
+			width:49.79%;
+			border: solid 1px #000;
+		}
+
+		#clear{
+			clear:both;
+		}
+
+		.section img{
+			position: relative;
+			top:-55px;
+			float: left;
+			margin-top:60px;
+			left: 0px;
+		}
+
+		.section h3{
+			position:relative;
+			margin: 0;
+			top: 0px;
+		}
+
+		.section p{
+		}
+		.section{
+			width: 49.79%;
+		}
+		a{
+			margin: 150px;
+		}
+
+
+		#WebDevelopment{
+			min-width: 960px;
+			margin: 0 auto;
+			border: solid 1pt #000;
+		}
+		#WebDevelopment h3{
+			margin-top: 0;
+		}
+
+		#WebDevelopment img{
+			float: left;
+			margin-top: -9px;
+			position: relative;
+			left: 3px;
+			width: 10%;
+		}
+		#WebDevelopment h2{
+			position: relative;
+			left:0;
+			top:70px;
+		}
+		#WebDevelopment p{
+			margin-left: 129px;
+		}
+
+		}
